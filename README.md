@@ -32,16 +32,16 @@ Description: A dataset used for credit scoring, which contains attributes like c
 
 It involves sensitive financial information such as income, loan amount, and other attributes that can be anonymized using k-anonymity.
 
-How to Apply k-Anonymity for These Datasets:
+## How to Apply k-Anonymity for These Datasets:
 Identify Sensitive Attributes: Look for fields like customer ID, income, loan amount, account number, transaction amounts, etc., which need to be anonymized.
-
+  
 Choose an Anonymization Strategy: Use techniques like:
 
-Generalization: Replace precise values with broader categories (e.g., age group instead of exact age).
+- Generalization: Replace precise values with broader categories (e.g., age group instead of exact age).
 
-Suppression: Remove highly specific values that make an individual identifiable.
+- Suppression: Remove highly specific values that make an individual identifiable.
 
-Bucketization: Group similar records together to hide individual data points.
+- Bucketization: Group similar records together to hide individual data points.
 
 Measure the Impact: Ensure that the anonymization preserves the utility of the data for analysis (such as identifying trends or patterns in banking operations).
 
