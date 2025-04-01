@@ -9,7 +9,8 @@ This project focuses on anonymizing sensitive event logs (e.g., healthcare data)
 - **Process Mining Compatibility:** Ensures anonymized logs remain usable for process mining analysis.
 
 ## Datasets
-BPI Challenge 2017 (Hospital Billing)
+[BPI Challenge 2017](https://data.4tu.nl/articles/dataset/BPI_Challenge_2017/12696884)
+(Hospital Billing)
 Description: Logs related to hospital billing, including invoices, payments, and financial transactions.
 It involves patient financial data that must be anonymized while retaining process patterns.
 
