@@ -8,6 +8,18 @@ This project focuses on anonymizing sensitive event logs (e.g., healthcare data)
 - **Utility Measurement:** Evaluates the impact of anonymization on process patterns.
 - **Process Mining Compatibility:** Ensures anonymized logs remain usable for process mining analysis.
 
+## Datasets
+BPI Challenge 2017 (Hospital Billing)
+Description: Logs related to hospital billing, including invoices, payments, and financial transactions.
+It involves patient financial data that must be anonymized while retaining process patterns.
+
+MIMIC 3 Dataset
+Description: A massive dataset with ICU patient records, including lab results, medications, and diagnoses.
+It provides rich event logs but requires de-identification due to its detailed patient data.
+(Yet to acquire)
+
+
+
 ## Deliverables
 - **Code** for event log anonymization.
 - **Utility measurement** to assess data retention quality.
