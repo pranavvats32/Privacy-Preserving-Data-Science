@@ -31,11 +31,6 @@ Contains personally identifiable information (PII) like GPS coordinates and time
 
 (Dataset is available in PARQUET form, need to preprocess to XES)
 
-[German Credit Dataset](https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data)
-
-Description: A dataset used for credit scoring, which contains attributes like credit history, personal details, and credit risk information for individuals.
-
-It involves sensitive financial information such as income, loan amount, and other attributes that can be anonymized using k-anonymity.
 
 ## How to Apply k-Anonymity for These Datasets:
 
