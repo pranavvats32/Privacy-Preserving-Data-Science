@@ -15,21 +15,7 @@ Description: Logs related to hospital billing, including invoices, payments, and
 
 It involves patient financial data that must be anonymized while retaining process patterns.
 
-[MIMIC 3 Dataset](https://physionet.org/content/mimiciii/1.4/)
 
-Description: A massive dataset with ICU patient records, including lab results, medications, and diagnoses.
-
-It provides rich event logs but requires de-identification due to its detailed patient data.
-
-(Yet to acquire MIMIC in BigQuery)
-
-[Uber & Lyft Ride-Sharing Data (New York City Jan 2024)](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
-
-Description: Taxi and ride-sharing trip data, including timestamps, pickup/drop-off locations, and fares.
-
-Contains personally identifiable information (PII) like GPS coordinates and timestamps, which need obfuscation.
-
-(Dataset is available in PARQUET form, need to preprocess to XES)
 
 
 ## How to Apply k-Anonymity for These Datasets:
