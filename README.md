@@ -1,4 +1,4 @@
-# Privacy-Preserving Process Mining
+# Privacy-Preserving Data Science
 
 ## Overview
 This project focuses on anonymizing sensitive event logs (e.g., healthcare data) while preserving essential process patterns. By applying privacy techniques such as differential privacy and k-anonymity, the goal is to protect confidential information while maintaining the utility of process mining insights.
@@ -9,14 +9,14 @@ This project focuses on anonymizing sensitive event logs (e.g., healthcare data)
 - **Process Mining Compatibility:** Ensures anonymized logs remain usable for process mining analysis.
 
 ## Datasets
-[BPI Challenge 2017](https://data.4tu.nl/articles/dataset/BPI_Challenge_2017/12696884) (Hospital Billing)
 
-Description: Logs related to hospital billing, including invoices, payments, and financial transactions.
+[Adult Census Income](https://www.kaggle.com/datasets/uciml/adult-census-income?resource=download)
 
-It involves patient financial data that must be anonymized while retaining process patterns.
+[Synthetic Data from a Financial Payment System](https://www.kaggle.com/datasets/ealaxi/banksim1)
 
+[Medical Costs Personal Datasets](https://www.kaggle.com/datasets/mirichoi0218/insurance)
 
-
+[BPI Challenge 2017](https://data.4tu.nl/articles/dataset/BPI_Challenge_2017/12696884)
 
 ## How to Apply k-Anonymity for These Datasets:
 
@@ -37,6 +37,7 @@ Use Tools for Process Mining: Convert the anonymized data into XES format using 
 
 ## Deliverables
 - **Code** for event log anonymization.
-- **Utility measurement** to assess data retention quality.
+- **Utility measurement** to assess dat
+- a retention quality.
 
 
