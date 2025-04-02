@@ -37,7 +37,7 @@ Use Tools for Process Mining: Convert the anonymized data into XES format using 
 
 ## Deliverables
 - **Code** for event log anonymization.
-- **Utility measurement** to assess dat
+- **Utility measurement** to assess data
 - a retention quality.
 
 
